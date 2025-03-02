@@ -12,7 +12,7 @@ Special thanks to **Prof. Luyao Zhang** for valuable suggestions and guidance th
 ## Statement of Intellectual and Professional Growth  
 This project has been a valuable learning experience, teaching me how to **systematically and rigorously conduct research**—from formulating research questions to identifying appropriate datasets, generating ideas, conducting experiments, and writing up findings. The process also enhanced my skills in **social network analysis, visualization, and applying machine learning to social science problems**.  
 
-## Embedded Media  
+## Poster
 ![Bot Detection in Social Media Poster](https://github.com/Rising-Stars-by-Sunshine/Boen-Final-Project/blob/main/poster.png)  
 
 ## Table of Contents  
