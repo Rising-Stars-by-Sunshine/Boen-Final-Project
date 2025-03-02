@@ -1,5 +1,4 @@
-# Social Bot Detection through Structural Holes and Centrality Measures  
-### Analyzing the Position of Humans and Bots in Networks  
+# Social Bot Detection through Structural Holes and Centrality Measures: Analyzing the Position of Humans and Bots in Networks  
 
 ## Authors  
 **Boen Liu** – Brainstorming, Writing, Coding, Social Network Analysis, Visualizations  
