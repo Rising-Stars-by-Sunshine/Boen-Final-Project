@@ -20,12 +20,16 @@ This project has been a valuable learning experience, teaching me how to **syste
 
 ## Table of Contents  
 
-| Section           | Description |
-|------------------|-------------|
-| [`code`](./code) | Contains all scripts for **explanation(main), prediction, and causal inference**. |
-| [`data`](./data) | Stores the dataset used in this study. |
+| Section                        | Description |
+|---------------------------------|-------------|
+| [`code`](./code)                | Contains all scripts for **explanation(main), prediction, and causal inference**. |
+| [`code/Explanation.ipynb`](./code/Explanation.ipynb)  | Script for **Social Network Analysis**. |
+| [`code/causal_inference.ipynb`](./code/causal_inference.ipynb)  | Script for **Regression Discontinuity Design (RDD)** analysis. |
+| [`code/prediction.ipynb`](./code/prediction.ipynb)  | Script for **Bot Detection Model**. |
+| [`data`](./data)                | Stores the dataset used in this study. |
 | [`visualizations`](./visualizations) | Includes all generated plots and visual representations. |
-| [`docs`](./docs) | Contains the final report and related documentation. |
+| [`docs`](./docs)                | Contains the final report and related documentation. |
+| [`docs/Final-Report.pdf`](./docs/Final-Report.pdf) | The **final report** for the study. |
 
 
 ## Code Execution  
