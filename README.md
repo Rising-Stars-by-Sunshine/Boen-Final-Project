@@ -1,40 +1,39 @@
-# Bot Detection in Social Media via Hypergraph Neural Networks: A Group-Centric Approach
+# Social Bot Detection through Structural Holes and Centrality Measures  
+### Analyzing the Position of Humans and Bots in Networks  
 
-## Proposal Overview
-This project proposes a novel approach to bot detection in social media by utilizing Hypergraph Neural Networks (HGNNs) to capture group-centric interactions. Social bots often operate in coordinated clusters, making traditional methods based on individual user features less effective. This study aims to improve detection accuracy by analyzing the network structure, including both user-level and group-level features, using the Twibot-22 dataset.
+## Authors  
+**Boen Liu** – Brainstorming, Writing, Coding, Social Network Analysis, Visualizations  
 
-## Background
-The presence of bots on social media platforms poses significant challenges to online discourse, public trust, and platform security. Bots have been used to spread misinformation, manipulate public opinion, and influence elections at an unprecedented scale. Current detection methods, which rely on user metadata or text-based approaches, often fail to capture the higher-order group interactions that are crucial for identifying coordinated bot activities. This research seeks to address this gap by modeling group behaviors through social network analysis and Hypergraph Neural Networks.
+## Disclaimer  
+This project was submitted for **STATS201: Machine Learning for Social Science**, instructed by **Prof. Luyao Zhang** at **Duke Kunshan University** in Spring 2025.  
 
-## Research Objectives
-- **Bot Detection**: Improve bot detection accuracy by incorporating group-level interactions in social media networks.
-- **Social Network Analysis**: Investigate the positional difference between bot and human in the social network.
-- **Methodological Contributions**: Introduce a novel group-based approach to bot detection and integrate multiple machine learning techniques for prediction.
+## Acknowledgments  
+Special thanks to **Prof. Luyao Zhang** for valuable suggestions and guidance throughout the project. Appreciation also goes to my **two classmates** for their insightful feedback and revisions. Additionally, this project benefited from **ChatGPT** for **language refinement and structuring GitHub content**, as well as **Python** for **coding and analysis**.  
 
-## Methodology
+## Statement of Intellectual and Professional Growth  
+This project has been a valuable learning experience, teaching me how to **systematically and rigorously conduct research**—from formulating research questions to identifying appropriate datasets, generating ideas, conducting experiments, and writing up findings. The process also enhanced my skills in **social network analysis, visualization, and applying machine learning to social science problems**.  
 
-### 1. Machine Learning for Explanation
-In this phase, we conduct a social network analysis of the Twibot-22 dataset to identify differences in centrality measures (degree, betweenness, and closeness) between human and bot accounts. These measures help explain the relative importance of users in the network and reveal structural differences in how bots and humans interact.
+## Embedded Media  
+![Bot Detection in Social Media Poster](https://github.com/Rising-Stars-by-Sunshine/Boen-Final-Project/blob/main/poster.png)  
 
-### 2. Machine Learning for Prediction
-A Hypergraph Neural Network (HGNN) is used for binary node classification to distinguish between human and bot accounts. By constructing a hypergraph based on user-follower relationships, this method captures group behaviors and higher-order interactions, which traditional pairwise graph-based methods cannot.
+## Table of Contents  
+- [Introduction](#introduction)  
+- [Methodology](#methodology)  
+- [Results](#results)  
+- [Conclusion](#conclusion)  
+- [Code](#code)  
+- [Data](#data)  
+- [Visualizations](#visualizations)  
+- [Documentation](#documentation)  
 
-## Evaluation
+## Code  
+All scripts for data processing, network analysis, and visualization are in the [`code`](./code) folder.  
 
-- **Explanation**: The analysis of centrality measures (degree, betweenness, closeness) indicates that bots typically have lower centrality values, especially in degree and betweenness, suggesting that these measures can effectively differentiate between human and bot accounts.
+## Data  
+The dataset used in this study is stored in the [`data`](./data) folder.  
 
-- **Prediction**: The model achieved a test accuracy of 0.503 and a ROC-AUC score of 0.61. While the accuracy suggests room for improvement, the ROC-AUC score indicates that the model can reasonably distinguish between bot and human accounts, performing better than random guessing.
+## Visualizations  
+All generated plots and visual representations can be found in the [`visualizations`](./visualizations) folder.  
 
-These findings highlight the potential of using group-based interactions and centrality measures to improve bot detection, provide insights into the impact of platform policies on user engagement, and enhance the understanding of bot behavior in social media networks.
-
-## Poster
-![Bot Detection in Social Media Poster](https://github.com/Rising-Stars-by-Sunshine/Boen-Final-Project/blob/main/poster.png)
-
-## Future Work
-- Further refine the HGNN model to improve detection accuracy and reduce false positives.
-- Explore additional features, such as video-based embeddings, to complement group-level interactions.
-- Extend the analysis to other social media platforms like Facebook and Instagram.
-
-## Acknowledgments
-We would like to thank the authors of the Twibot-22 dataset for their contributions to bot detection research.
-
+## Documentation  
+Additional details, including the report and presentation slides, are available in the [`docs`](./docs) folder.  
