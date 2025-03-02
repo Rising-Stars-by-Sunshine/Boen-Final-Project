@@ -16,23 +16,11 @@ This project has been a valuable learning experience, teaching me how to **syste
 ![Bot Detection in Social Media Poster](https://github.com/Rising-Stars-by-Sunshine/Boen-Final-Project/blob/main/poster.png)  
 
 ## Table of Contents  
-- [Introduction](#introduction)  
-- [Methodology](#methodology)  
-- [Results](#results)  
-- [Conclusion](#conclusion)  
-- [Code](#code)  
-- [Data](#data)  
-- [Visualizations](#visualizations)  
-- [Documentation](#documentation)  
 
-## Code  
-All scripts for data processing, network analysis, and visualization are in the [`code`](./code) folder.  
+All scripts for explanation, orediction and causal inference are in the [`code`](./code) folder.  
 
-## Data  
 The dataset used in this study is stored in the [`data`](./data) folder.  
 
-## Visualizations  
 All generated plots and visual representations can be found in the [`visualizations`](./visualizations) folder.  
 
-## Documentation  
-Additional details, including the report and presentation slides, are available in the [`docs`](./docs) folder.  
+The final report is available in the [`docs`](./docs) folder.  
