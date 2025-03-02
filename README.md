@@ -17,10 +17,15 @@ This project has been a valuable learning experience, teaching me how to **syste
 
 ## Table of Contents  
 
-All scripts for explanation, orediction and causal inference are in the [`code`](./code) folder.  
+| Section           | Description |
+|------------------|-------------|
+| [`code`](./code) | Contains all scripts for **explanation, prediction, and causal inference**. |
+| [`data`](./data) | Stores the dataset used in this study. |
+| [`visualizations`](./visualizations) | Includes all generated plots and visual representations. |
+| [`docs`](./docs) | Contains the final report and related documentation. |
 
-The dataset used in this study is stored in the [`data`](./data) folder.  
 
-All generated plots and visual representations can be found in the [`visualizations`](./visualizations) folder.  
 
-The final report is available in the [`docs`](./docs) folder.  
+
+
+
