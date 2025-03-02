@@ -19,10 +19,81 @@ This project has been a valuable learning experience, teaching me how to **syste
 
 | Section           | Description |
 |------------------|-------------|
-| [`code`](./code) | Contains all scripts for **explanation, prediction, and causal inference**. |
+| [`code`](./code) | Contains all scripts for **explanation(main), prediction, and causal inference**. |
 | [`data`](./data) | Stores the dataset used in this study. |
 | [`visualizations`](./visualizations) | Includes all generated plots and visual representations. |
 | [`docs`](./docs) | Contains the final report and related documentation. |
+
+
+## Code Execution  
+To run the code, follow these steps:  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Rising-Stars-by-Sunshine/Boen-Final-Project.git
+   cd Boen-Final-Project
+   ```
+   
+2. Install dependencies using `pip`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+    or to install specific libraries individually, use:
+
+    ```bash
+    pip install networkx==2.5 Easygraph==1.4.1 pandas==1.3.2 statsmodels==0.13.2 matplotlib==3.4.3 seaborn==0.11.2 torch==1.9.0 numpy==1.21.1 sklearn==0.24.2
+    ```
+    
+3. **Navigate to the code directory**
+   ```bash
+   cd code
+   ```
+   
+4. Run the Jupyter Notebook
+   - For explanation analysis: Open and run `Explanation.ipynb`
+   - For prediction tasks: Open and run `prediction.ipynb`
+   - For causal inference: Open and run `causal_inference.ipynb`
+
+## Dependencies
+
+### Required Libraries and Versions:
+- **Python 3.9**
+- **networkx==2.5**
+- **easygraph==1.4.1**
+- **pandas==1.3.2**
+- **statsmodels==0.13.2**
+- **matplotlib==3.4.3**
+- **seaborn==0.11.2**
+- **torch==1.9.0**
+- **numpy==1.21.1**
+- **torch.nn** (included in the `torch` library)
+- **sklearn==0.24.2**
+
+
+## Example Usage
+
+1. **Running Social Network Analysis(Main)**:
+   - For social network analysis, run the following notebook to analyze centrality measures and structure holes for bots and humans:
+
+    ```bash
+    jupyter notebook Explanation.ipynb
+    ```
+
+2. **Training and Evaluating Predictive Models**:
+   - To train a hypergraph neural network model for bot detection, run the following:
+
+    ```bash
+    jupyter notebook prediction.ipynb
+    ```
+
+3. **Running Causal Inference Analysis**:
+   - To perform Regression Discontinuity Design (RD) analysis on the impact of Twitter’s subscription program, execute:
+
+    ```bash
+    jupyter notebook causal_inference.ipynb
+    ```
+
 
 
 
