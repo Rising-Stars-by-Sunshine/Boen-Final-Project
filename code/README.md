@@ -1,16 +1,16 @@
 # Code Folder
 
 ## 1. Overview
-This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, **Social Network Analysis**, and **Causal Inference**. The tasks include performing social network analysis using centrality measures, training predictive models using hypergraph neural networks, and applying **Regression Discontinuity Design (RD)** to study the impact of Twitter’s subscription program on user engagement.
+This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, **Social Network Analysis**, and **Causal Inference**. The tasks include performing social network analysis using centrality measures and structure hole measure, training predictive models using hypergraph neural networks, and applying **Regression Discontinuity Design (RD)** to study the impact of Twitter’s subscription program on user engagement.
 
 ## 2. Files Included
+
+- **`Explanation.ipynb(Main)`**: 
+  - **Purpose**: Performs social network analysis on the **Twibot-22** dataset, focusing on the differences between human and bot accounts in terms of centrality measures, including degree centrality, closeness centrality, and betweenness centrality.
 
 - **`causal_inference.ipynb`**: 
   - **Purpose**: Implements Regression Discontinuity Design (RD) to investigate the impact of Twitter’s subscription program on user engagement, such as weekly study time or tweet frequency.
   
-- **`Explanation.ipynb`**: 
-  - **Purpose**: Performs social network analysis on the **Twibot-22** dataset, focusing on the differences between human and bot accounts in terms of centrality measures, including degree centrality, closeness centrality, and betweenness centrality.
-
 - **`prediction.ipynb`**: 
   - **Purpose**: Trains a **Hypergraph Neural Network** to detect Twitter bots by leveraging user profile features and social network relationships.
 
@@ -34,8 +34,9 @@ This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Rising-Stars-by-Sunshine/Boen-ps2.git
-    cd Boen-ps2
+    git clone https://github.com/Rising-Stars-by-Sunshine/Boen-Final-Project.git
+    cd Boen-Final-Project
+
     ```
 
 2. Install dependencies using `pip`:
@@ -92,6 +93,3 @@ This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, 
   - For Social Network Analysis, insights into the positional difference(centrality mesuares) of human and bot in the network.
   - For Prediction, insights into whether group interaction can detect the bot effectively.
 
-## 6. Contributors
-
-- **Boen Liu** – Project Lead, Branstorming, Causal Inference, Social Network Analysis, Predictive Modeling, Hypergraph Neural Network. 
