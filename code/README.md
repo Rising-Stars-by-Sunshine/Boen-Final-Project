@@ -6,7 +6,7 @@ This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, 
 ## 2. Files Included
 
 - **`Explanation.ipynb(Main)`**: 
-  - **Purpose**: Performs social network analysis on the **Twibot-22** dataset, focusing on the differences between human and bot accounts in terms of centrality measures, including degree centrality, closeness centrality, and betweenness centrality.
+  - **Purpose**: Performs social network analysis on the **Twibot-22** dataset, focusing on the differences between human and bot accounts in terms of centrality measures and structure hole measure, including degree centrality, closeness centrality, betweenness centrality and effective size.
 
 - **`causal_inference.ipynb`**: 
   - **Purpose**: Implements Regression Discontinuity Design (RD) to investigate the impact of Twitter’s subscription program on user engagement, such as weekly study time or tweet frequency.
